@@ -8,7 +8,7 @@ body {
 
 body {
     font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-    
+
     overflow: hidden;
 }
 
@@ -16,7 +16,7 @@ h1 {
     font-family: 'Playfair Display', Times, serif;
     color: white;
     font-size: 3em;
-    
+
     overflow: hidden;
 }
 
@@ -27,7 +27,7 @@ p {
 
 /*Backgrounds*/
 
-.welcome-bg {
+.bg {
     height: 100%;
     width: 100%;
     opacity: 0.9;
@@ -46,28 +46,49 @@ p {
     overflow: hidden;
     position: absolute;
     z-index: 1;
-    margin-right: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
 
+#menu > a {
+    padding: 10px;
+    
+    text-align: center;
+    text-decoration: none;
     color: white;
 }
 
-.menu-item {
-    margin-right: 10px;
-    margin-left: 10px;
+#menu > a:hover {
     cursor: pointer;
+    
+/* 
+    //Attempted an Animation, where the link gets underlined in the hover state. I wasn't satisfied with the non-existent space between underline and text, so I did it in Javascript.
+    
+    text-decoration: underline;
+    
+    color: black;
+    background-color: white;
+*/
+    
 }
 
 /*01. Welcome Page*/
 
 .flex-container {
     display: flex;
-    flex-flow: column wrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
 .welcome-textbox {
     position: relative;
-    padding: 250px;
-}
 
+    margin-top: 5%;
+    padding: 220px;
+
+    border: 3px solid white;
+    text-align: center;
+
+
+}
