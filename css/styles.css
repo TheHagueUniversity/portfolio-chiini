@@ -1,0 +1,73 @@
+/*General Stuff*/
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Playfair Display', Times, serif;
+    color: white;
+    font-size: 3em;
+    
+    overflow: hidden;
+}
+
+p {
+    font-size: 1.5em;
+    color: white;
+}
+
+/*Backgrounds*/
+
+.welcome-bg {
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Navigation-Menu*/
+
+#menu {
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    margin-right: 5px;
+
+    color: white;
+}
+
+.menu-item {
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/*01. Welcome Page*/
+
+.flex-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-textbox {
+    position: relative;
+    padding: 250px;
+}
+
