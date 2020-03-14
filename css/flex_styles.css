@@ -3,6 +3,7 @@
 html,
 body {
     background-color: #121212;
+    overflow-x: hidden;
 }
 
 body {
@@ -90,7 +91,8 @@ a {
 }
 
 .st5 {
-    font-family: 'SourceSansPro-Bold';
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-weight: bold;
 }
 
 .st6 {
@@ -98,7 +100,7 @@ a {
 }
 
 .st7 {
-    font-family: 'SourceSansPro-Regular';
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 }
 
 svg {
@@ -106,15 +108,16 @@ svg {
     height: auto;
 }
 
-/*03. About Me Page*/
-
-.header_about {
+/*Header*/
+.header {
     background-image: url(../img/bw-backdrop_1.jpg);
     background-size: cover;
     text-align: center;
     margin-top: 50px;
     padding: 50px;
 }
+
+/*03. About Me Page*/
 
 /*Flex-Box*/
 
@@ -138,14 +141,6 @@ svg {
     border: 2px solid white;
 }
 
-.education {
-    margin-left: 100px;
-}
-
-#edugraph {
-    width: 70%;
-}
-
 /*Right Side*/
 
 .flex_right {
@@ -154,6 +149,37 @@ svg {
 
 .about {
     margin-right: 100px;
+}
+
+/*Education/Work Block*/
+
+.education > h2 {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#edugraph {
+    margin-left: 20px;
+    width: 100%;
+}
+
+/*04. Project Page*/
+.flex_row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px;
+}
+
+.flex_column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 5px;
+}
+
+.flex_column img {
+    margin-top: 8px;
+    width: 100%;
+    vertical-align: middle;
 }
 
 /*Footer*/
