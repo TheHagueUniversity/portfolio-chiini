@@ -61,7 +61,7 @@ a {
     color: #FFE46E;
 }
 
-/*Icons*/
+/*SVGs/Icons*/
 
 .st0 {
     fill: #FFFFFF;
@@ -69,6 +69,36 @@ a {
 
 .st1 {
     fill: #FFE46E;
+}
+
+.st0_ {
+    fill: #FFFFFF;
+    stroke: #FFFFFF;
+    stroke-width: 11;
+    stroke-miterlimit: 10;
+}
+
+.st3 {
+    fill: #FFFFFF;
+    stroke: #FFE46E;
+    stroke-width: 4;
+    stroke-miterlimit: 10;
+}
+
+.st4 {
+    fill: none;
+}
+
+.st5 {
+    font-family: 'SourceSansPro-Bold';
+}
+
+.st6 {
+    font-size: 14px;
+}
+
+.st7 {
+    font-family: 'SourceSansPro-Regular';
 }
 
 svg {
@@ -112,14 +142,22 @@ svg {
     margin-left: 100px;
 }
 
+#edugraph {
+    width: 70%;
+}
+
 /*Right Side*/
 
 .flex_right {
     flex: 50%;
 }
 
+.about {
+    margin-right: 100px;
+}
+
 /*Footer*/
 .footer {
     text-align: center;
+    margin: 10px;
 }
-
