@@ -17,6 +17,11 @@ $(document).ready(
 //            }
 //
 //        );
+        $('button').click(
+            function () {
+                $(this).css({"background-color":"black","border":"2px solid black", "color":"#FFE46E"});
+            }
+        );
 
         function hoverFunction(icon, circle, inside) {
             $(icon).hover(

@@ -23,7 +23,7 @@ h2 {
     color: white;
 }
 
-p {
+p, li {
     font-size: 1.2em;
     line-height: 1.2em;
     color: white;
@@ -31,6 +31,25 @@ p {
 
 .yellow_highlight {
     color: #FFE46E;
+}
+
+button {
+    width: 250px;
+    height: 70px;
+
+    margin-top: 20px;
+    padding: 5px;
+
+    border: 2px solid #FFE46E;
+    border-radius: 5px;
+
+    background-color: #FFE46E;
+    font-size: 1.2em;
+    font-family: 'Playfair Display', Times, serif;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 a {
@@ -184,6 +203,11 @@ svg {
 .gallery_img:hover {
     cursor: pointer;
     opacity: 0.6;
+}
+
+.gallery_column p,li, button {
+    margin: 40px;
+    width: 90%;
 }
 
 /*Footer*/
