@@ -47,9 +47,16 @@ button {
     border-radius: 5px;
 
     background-color: #FFE46E;
-    color: black;
     font-size: 1.2em;
     font-family: 'Playfair Display', Times, serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
 }
 
 /*Backgrounds*/
@@ -85,7 +92,6 @@ button {
     padding: 10px;
 
     text-align: center;
-    text-decoration: none;
     color: white;
 }
 

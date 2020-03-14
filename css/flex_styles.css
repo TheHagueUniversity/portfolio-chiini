@@ -1,0 +1,125 @@
+/*General Stuff*/
+
+html,
+body {
+    background-color: #121212;
+}
+
+body {
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'Playfair Display', Times, serif;
+    color: white;
+    font-size: 3em;
+
+}
+
+h2 {
+    font-family: 'Playfair Display', Times, serif;
+    font-size: 1.5em;
+    color: white;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    color: white;
+}
+
+.yellow_highlight {
+    color: #FFE46E;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Navigation-Menu*/
+
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0px 20px 0px 0px;
+    padding: 20px;
+    width: 100%;
+    background-color: #121212;
+}
+
+#menu > a {
+    padding: 10px;
+
+    text-align: center;
+    color: white;
+}
+
+#menu > a:hover {
+    cursor: pointer;
+
+    color: #FFE46E;
+}
+
+/*Icons*/
+
+.st0 {
+    fill: #FFFFFF;
+}
+
+.st1 {
+    fill: #FFE46E;
+}
+
+svg {
+    width: 220px;
+    height: auto;
+}
+
+/*03. About Me Page*/
+
+.header_about {
+    background-image: url(../img/bw-backdrop_1.jpg);
+    background-size: cover;
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+/*Flex-Box*/
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Left Side*/
+
+.flex_left {
+    flex: 50%;
+}
+
+.image {
+    width: 70%;
+    padding: 10px;
+    margin: 50px 20px 50px 100px;
+    border: 2px solid white;
+}
+
+.education {
+    margin-left: 100px;
+}
+
+/*Right Side*/
+
+.flex_right {
+    flex: 50%;
+}
+
+/*Footer*/
+.footer {
+    text-align: center;
+}
+
